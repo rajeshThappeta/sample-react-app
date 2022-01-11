@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, Outlet } from 'react-router-dom'
+import { NavLink, Outlet } from 'react-router-dom'
 
 
 function Technologies() {
@@ -9,10 +9,10 @@ function Technologies() {
             {/* define links for its children */}
             <ul className="nav justify-content-center">
                 <li className="nav-item">
-                    <Link className="nav-link active" to="/">HTML</Link>
+                    <NavLink className="nav-link" to="html">HTML</NavLink>
                 </li>
                 <li className="nav-item">
-                    <Link className="nav-link" to="javascript">JavaScript</Link>
+                    <NavLink className="nav-link" to="javascript">JavaScript</NavLink>
                 </li>
 
             </ul>

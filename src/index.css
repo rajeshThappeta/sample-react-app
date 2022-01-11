@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+ .active{
+  font-weight: bold;
+  background-color: rgb(2, 153, 199);
+  
+}
+
+.active:hover{
+  background-color: chocolate;
+}

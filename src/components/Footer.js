@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './Footer.css'
 function Footer() {
     return (
         <footer className='d-flex justify-content-around bg-dark text-white py-5'>
